@@ -12,9 +12,14 @@ class Home extends Component {
   render() {
     return (
       <Page>
+      <div className="scroll-and-button">
         <div className="home-page-scroll-chat-container">
           <ChatScroll />
         </div>
+        <div className="home-button-container">
+          <button>Join conversation</button>
+        </div>
+      </div>
         <div className="instagram-main-container">
         <div className="home-page-instagram">
           <PictureInstagram image={ToDo}/>

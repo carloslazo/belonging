@@ -2,6 +2,14 @@
 .{
   font-family: 'Open Sans', sans-serif;
 }
+@keyframes example1 {
+0%   {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(-100%);
+}
+}
 .container{
   height: 100vh;
  display: grid;
@@ -9,6 +17,8 @@
 }
 .content{
   padding: 10px;
+  background-color: #efefef;
+  margin: 15px;
 }
 
 /* ////////////Page//////// */
@@ -41,22 +51,41 @@
 display: flex;
 flex-direction: column;
 align-items: center;
+background-color: #ffc300;
+margin-top: 20px;
 }
 
 .home-page-scroll-chat-container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100px;
+  height: 40px;
 }
 .chat-scroll{
+  height: 35px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ }
+ .chat-scroll > p{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   line-height: 35px;
+   transform:translateX(100%);
+   animation: example1 16s linear infinite;
+   box-shadow: 4px 5px #888888;
+   background-color: white;
+   font-weight: bold;
 
-}
+  }
+
 .instagram-main-container{
   height: 350px;
   display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 30px;
+
 }
 .home-page-event-button{
   font-size: 2px;
@@ -86,9 +115,24 @@ align-items: center;
 }
 
 .fa-map-marker{
-  font-size: 40px;
+  font-size: 60px;
 }
 .picture{
   width: 60px;
 }
 /* ////////////HomePage//////// */
+.home-button-container{
+  display: flex;
+  justify-content: center;
+}
+.home-button-container button{
+  font-size: 19px;
+      border-radius: 8px;
+      background-color: #ffc300;
+      color: white;
+      font-weight: bold;
+      padding: 5px;
+}
+.scroll-and-button{
+  padding: 5px;
+}
