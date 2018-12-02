@@ -1,32 +1,84 @@
-.App {
-  text-align: center;
+/* ////////////Page//////// */
+
+.container{
+  height: 100vh;
+ display: grid;
+ grid-template-rows: 1fr 60px;
+}
+.content{
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ////////////Page//////// */
+/* ////////////Footer//////// */
+.footer{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* box-shadow: 39px 27px; */
+  background: #6083B5;
+}
+
+
+/* ////////////Footer//////// */
+
+/* ////////////NavBar//////// */
+.nav-bar-container{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
   color: white;
+
+  }
+
+/* ////////////NavBar//////// */
+/* ////////////HomePage//////// */
+
+.home-page-instagram{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.home-page-scroll-chat-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
+.chat-scroll{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.instagram-main-container{
+  height: 350px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.home-page-event-button{
+  font-size: 2px;
+  margin-top: 20px;
+  background-color: #6083B5;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.instagram-image-component{
+  width: 90%;
+
+}
+.map-image-component{
+  width: 100px;
+  height: 100px;
+}
+.map-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.picture{
+  width: 60px;
+}
+/* ////////////HomePage//////// */
