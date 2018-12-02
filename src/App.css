@@ -225,3 +225,39 @@ input{
   height: 33px;
 }
 /* ////////////Login//////// */
+
+
+
+/* ////////////Help//////// */
+
+.help-main-container{
+  height: 584px;
+}
+
+.help-small-container{
+  height: 181px;
+}
+
+.help-small-container-1{
+  height: 363px;
+}
+
+.help-rectangle{
+  height: 50px;
+  margin: 10px 0 10px 0;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+
+}
+
+.icon-container{
+  height: 40px;
+display: flex;
+align-items: center;
+width: 361px;
+
+}
+
+
+/* ////////////Help//////// */
