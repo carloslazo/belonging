@@ -52,7 +52,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>Text</b>{" "}
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>Phone charging stations</b>{" "}
                 </p>
               </div>
             </div>
@@ -97,7 +97,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>Shower facilities</b>{" "}
                 </p>
               </div>
             </div>
@@ -114,7 +114,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>San Diego Youth Services</b>{" "}
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>Walk-in centers</b>{" "}
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ class Help extends Component {
                 />
                 <p>
                   {" "}
-                  <b>Call</b>{" "}
+                  <b>Additional resources</b>{" "}
                 </p>
               </div>
             </div>
