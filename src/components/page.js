@@ -8,7 +8,6 @@ class Page extends Component {
         <div className="footer">
           <Navbar />
         </div>
-
       </div>
     );
   }

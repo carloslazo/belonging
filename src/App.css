@@ -1,11 +1,14 @@
 /* ////////////Page//////// */
-
+.{
+  font-family: 'Open Sans', sans-serif;
+}
 .container{
   height: 100vh;
  display: grid;
  grid-template-rows: 1fr 60px;
 }
 .content{
+  padding: 10px;
 }
 
 /* ////////////Page//////// */
@@ -15,7 +18,7 @@
   align-items: center;
   justify-content: center;
   /* box-shadow: 39px 27px; */
-  background: #6083B5;
+  background: #FEC20B;
 }
 
 
@@ -77,6 +80,13 @@ align-items: center;
   margin-top: 20px;
   flex-direction: column;
   align-items: center;
+}
+.map-container p{
+  font-weight: bold;
+}
+
+.fa-map-marker{
+  font-size: 40px;
 }
 .picture{
   width: 60px;
